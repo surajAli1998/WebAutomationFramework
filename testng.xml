@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/TheTestingAcademy/ATB6X/UIAutomation/WebAutomationFramework/WebAutomationFramework" parallel="methods">
+        <classes>
+            <class name="com.webautomation.VWOLogin">
+                <methods>
+<!--                    <include name="loginTestPositive"/>-->
+                    <include name="loginTestNegative1"/>
+                    <include name="loginTestNegative2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
