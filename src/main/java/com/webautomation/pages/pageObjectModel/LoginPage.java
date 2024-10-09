@@ -1,19 +1,19 @@
-package com.webautomation.pages;
+package com.webautomation.pages.pageObjectModel;
 
+import com.webautomation.base.CommonToAllPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class LoginPage {
+public class LoginPage extends CommonToAllPage {
 
     WebDriver driver;
 
-    public LoginPage(WebDriver driver){
-        this.driver = driver;
+    public LoginPage(){
+        this.driver = getDriver();
     }
 
     // Locators

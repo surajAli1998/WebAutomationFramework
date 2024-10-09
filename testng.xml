@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="D:/TheTestingAcademy/ATB6X/UIAutomation/WebAutomationFramework/WebAutomationFramework" parallel="methods">
         <classes>
-            <class name="com.webautomation.VWOLogin">
+            <class name="com.webautomation.tests.stg.VWOLoginUsingPOM">
                 <methods>
 <!--                    <include name="loginTestPositive"/>-->
                     <include name="loginTestNegative1"/>
